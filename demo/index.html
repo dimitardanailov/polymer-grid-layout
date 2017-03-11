@@ -1,13 +1,71 @@
+<!doctype html>
 <html>
-    <head>
-        <title>polymer-grid-layout demo</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
 
-        <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
-    </head>
+  <title>polymer-grid-layout demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body>
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
 
-    </body>
+  <link rel="import" href="../../paper-styles/demo-pages.html">
+  <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+  <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+  <link rel="import" href="../iron-flex-layout.html">
+
+  <style is="custom-style" include="demo-pages-shared-styles">
+    demo-snippet {
+      --demo-snippet-demo: {
+        padding: 0;
+      }
+    }
+
+    .container {
+      background-color: #ccc;
+      padding: 5px;
+      margin: 0;
+    }
+
+    .container > div {
+        border: 1px solid rgba(0,95,107);
+        border-radius: 3px;
+        background-color: rgba(0, 95, 107, 0.8);
+        padding: 0.2em;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .container > div:nth-child(odd) {
+        background-color: rgba(110, 195, 107, 0.8);
+    }
+  </style>
+
+</head>
+<body unresolved class="fullbleed">
+  <div class="vertical-section-container centered">
+    <h4>Display grid and justify-items (start)</h4>
+    <demo-snippet>
+      <template>
+        <style is="custom-style">
+          .flex {
+            @apply(--layout-grid-justify-items-start);
+
+            grid-template-columns: 200px 200px 200px;
+          }
+        </style>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+        </div>
+      </template>
+    </demo-snippet>
+  </div>
+</body>
 </html>

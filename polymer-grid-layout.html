@@ -1,18 +1,70 @@
 <link rel="import" href="../polymer/polymer.html">
 
-<style is="custom-style">
+<style is="custom-grid-style">
     :root {
-        --layout: {
+        --layout-grid: {
             display: -ms-grid; /* IE 10 */
             display: grid;
         }
 
-        --layout-inline: {
+        --layout-grid-inline: {
             display: inline-grid;
         }
 
-        --layout-subgrid: {
+        --layout-grid-subgrid: {
             display: subgrid;
         }
+
+        /*** Justify items - display grid ***/
+        --layout-grid-justify-items-start: {
+            @apply(--layout-grid);
+
+            justify-items: start;
+        }
+
+        --layout-grid-justify-items-end: {
+            @apply(--layout-grid);
+
+            justify-items: end;
+        }
+
+        --layout-grid-justify-items-center: {
+            @apply(--layout-grid);
+
+            justify-items: center;
+        }
+
+        --layout-grid-justify-items-stretch: {
+            @apply(--layout-grid);
+
+            justify-items: stretch;
+        }
+        /*** Justify items - display grid ***/
+
+        /*** Justify items - display grid-inline ***/
+        --layout-grid-inline-justify-items-start: {
+            @apply(--layout-grid-inline);
+
+            justify-items: start;
+        }
+
+        --layout-grid-inline-justify-items-end: {
+            @apply(--layout-grid-inline);
+
+            justify-items: end;
+        }
+
+        --layout-grid-inline-justify-items-center: {
+            @apply(--layout-grid-inline);
+
+            justify-items: center;
+        }
+
+        --layout-grid-inline-justify-items-stretch: {
+            @apply(--layout-grid-inline);
+
+            justify-items: stretch;
+        }
+        /*** Justify items - display grid-inline ***/
     }
 </style>
