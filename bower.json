@@ -9,7 +9,7 @@
     "url": "git@github.com:dimitardanailov/polymer-grid-layout.git"
   },
   "description": "Provide grid-based layouts",
-  "private": true,
+  "private": false,
   "main": "polymer-grid-layout.html",
   "keywords": [
     "web-components",
