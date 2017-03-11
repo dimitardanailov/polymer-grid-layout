@@ -1,0 +1,34 @@
+{
+  "name": "polymer-grid-layout",
+  "version": "1.0.0",
+  "authors": [
+    "Dimitar Danailov <dimityr.danailov@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dimitardanailov/polymer-grid-layout.git"
+  },
+  "description": "Provide grid-based layouts",
+  "private": true,
+  "main": "polymer-grid-layout.html",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "layout"
+  ],
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
