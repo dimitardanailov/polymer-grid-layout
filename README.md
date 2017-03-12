@@ -63,7 +63,7 @@ Additional resources:
 ```html
 <link rel="import" href="bower_components/polymer-grid-layout/polymer-grid-layout.html">
 
-<!-- main document -- apply mixins in a custom-style element -->
+<!-- main document: apply mixins in a custom-style element -->
 <style is="custom-style">
   .container {
       @apply(--layout-grid-justify-items-end);
@@ -103,7 +103,7 @@ Additional resources:
 ```html
 <link rel="import" href="bower_components/polymer-grid-layout/polymer-grid-layout.html">
 
-<!-- main document -- apply mixins in a custom-style element -->
+<!-- main document: apply mixins in a custom-style element -->
 <style is="custom-style">
   .container {
       @apply(--layout-grid-justify-items-center);
@@ -143,7 +143,7 @@ Additional resources:
 ```html
 <link rel="import" href="bower_components/polymer-grid-layout/polymer-grid-layout.html">
 
-<!-- main document -- apply mixins in a custom-style element -->
+<!-- main document: apply mixins in a custom-style element -->
 <style is="custom-style">
   .container {
       @apply(--layout-grid-justify-items-stretch);
