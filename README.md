@@ -1,6 +1,6 @@
-# Polymer grid layout
-
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/dimitardanailov/polymer-grid-layout)
+
+# Polymer grid layout
 
 The `<polymer-grid-layout>` component provides simple ways to use [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
@@ -74,6 +74,20 @@ Additional resources:
 
 ##### Example 2 (Grid layout and justify-items: end)
 
+<!---
+```
+<custom-element-demo>
+  <template>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="polymer-grid-layout.html">
+
+    <next-code-block></next-code-block>
+
+  </template>
+</custom-element-demo>
+```
+-->
+
 ```html
 <!-- main document: apply mixins in a custom-style element -->
 <style is="custom-style">
@@ -112,6 +126,20 @@ Additional resources:
 
 ##### Example 3 (Grid layout and justify-items: center)
 
+<!---
+```
+<custom-element-demo>
+  <template>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="polymer-grid-layout.html">
+
+    <next-code-block></next-code-block>
+
+  </template>
+</custom-element-demo>
+```
+-->
+
 ```html
 <!-- main document: apply mixins in a custom-style element -->
 <style is="custom-style">
@@ -149,6 +177,20 @@ Additional resources:
 ```
 
 ##### Example 4 (Grid layout and justify-items: stretch)
+
+<!---
+```
+<custom-element-demo>
+  <template>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="polymer-grid-layout.html">
+
+    <next-code-block></next-code-block>
+
+  </template>
+</custom-element-demo>
+```
+-->
 
 ```html
 <!-- main document: apply mixins in a custom-style element -->
