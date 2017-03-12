@@ -1,5 +1,7 @@
 # Polymer grid layout
 
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/dimitardanailov/polymer-grid-layout)
+
 The `<polymer-grid-layout>` component provides simple ways to use [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
 *Important note:*
@@ -26,6 +28,40 @@ Additional resources:
   <template>
     <script src="../webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="polymer-grid-layout.html">
+
+    <style is="custom-style">
+      .container {
+          @apply(--layout-grid-justify-items-start);
+
+          grid-template-columns: 200px 200px 200px;
+      }
+
+      .container > div {
+          border: 1px solid rgba(0,95,107);
+          border-radius: 3px;
+          background-color: rgba(0, 95, 107, 0.8);
+          padding: 0.2em;
+          color: #fff;
+          margin-bottom: 10px;
+      }
+
+      .container > div:nth-child(odd) {
+          background-color: rgba(110, 195, 107, 0.8);
+      }
+    </style>
+
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+
   </template>
 </custom-element-demo>
 ```
