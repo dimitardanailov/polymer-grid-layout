@@ -20,10 +20,19 @@ Additional resources:
 
 ##### Example 1 (Grid layout and justify-items: start)
 
-```html
-<link rel="import" href="bower_components/polymer-grid-layout/polymer-grid-layout.html">
+<!---
+```
+<custom-element-demo>
+  <template>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="polymer-grid-layout.html">
+  </template>
+</custom-element-demo>
+```
+-->
 
-<!-- main document -- apply mixins in a custom-style element -->
+```html
+<!-- main document apply mixins in a custom-style element -->
 <style is="custom-style">
   .container {
       @apply(--layout-grid-justify-items-start);
@@ -61,8 +70,6 @@ Additional resources:
 ##### Example 2 (Grid layout and justify-items: end)
 
 ```html
-<link rel="import" href="bower_components/polymer-grid-layout/polymer-grid-layout.html">
-
 <!-- main document: apply mixins in a custom-style element -->
 <style is="custom-style">
   .container {
@@ -101,8 +108,6 @@ Additional resources:
 ##### Example 3 (Grid layout and justify-items: center)
 
 ```html
-<link rel="import" href="bower_components/polymer-grid-layout/polymer-grid-layout.html">
-
 <!-- main document: apply mixins in a custom-style element -->
 <style is="custom-style">
   .container {
@@ -141,8 +146,6 @@ Additional resources:
 ##### Example 4 (Grid layout and justify-items: stretch)
 
 ```html
-<link rel="import" href="bower_components/polymer-grid-layout/polymer-grid-layout.html">
-
 <!-- main document: apply mixins in a custom-style element -->
 <style is="custom-style">
   .container {
